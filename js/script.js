@@ -25,7 +25,7 @@ inputRub.addEventListener('input', () => {
             inputUsd.value = inputRub.value / data.usd;
         })
         .catch(() => {
-            inputUsd.value = "Что-то пошло не так!";
+            inputUsd.value = "Something went wrong!";
         });
     
 
